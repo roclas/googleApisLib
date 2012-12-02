@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/" xmlns:gCal="http://schemas.google.com/gCal/2005" xmlns:gd="http://schemas.google.com/g/2005">
+  <id>http://www.google.com/calendar/feeds/time.it%40bbvaglobalnet.com/private-db8f3b7a86264a8a34a80d65dcefc3aa/full</id>
+  <updated>2012-12-02T16:48:02.000Z</updated>
+  <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/g/2005#event"/>
+  <title type="text">time.it@bbvaglobalnet.com</title>
+  <subtitle type="text">time.it@bbvaglobalnet.com</subtitle>
+  <link rel="alternate" type="text/html" href="https://www.google.com/calendar/embed?src=time.it%40bbvaglobalnet.com"/>
+  <link rel="http://schemas.google.com/g/2005#feed" type="application/atom+xml" href="https://www.google.com/calendar/feeds/time.it%40bbvaglobalnet.com/private-db8f3b7a86264a8a34a80d65dcefc3aa/full"/>
+  <link rel="http://schemas.google.com/g/2005#batch" type="application/atom+xml" href="https://www.google.com/calendar/feeds/time.it%40bbvaglobalnet.com/private-db8f3b7a86264a8a34a80d65dcefc3aa/full/batch"/>
+  <link rel="self" type="application/atom+xml" href="https://www.google.com/calendar/feeds/time.it%40bbvaglobalnet.com/private-db8f3b7a86264a8a34a80d65dcefc3aa/full?max-results=25&amp;start-min=2012-12-02T00%3A00%3A00&amp;start-max=2012-12-02T23%3A59%3A59"/>
+  <author>
+    <name>Semáforo Salas</name>
+    <email>time.it@bbvaglobalnet.com</email>
+  </author>
+  <generator version="1.0" uri="http://www.google.com/calendar">Google Calendar</generator>
+  <openSearch:totalResults>4</openSearch:totalResults>
+  <openSearch:startIndex>1</openSearch:startIndex>
+  <openSearch:itemsPerPage>25</openSearch:itemsPerPage>
+  <gCal:timezone value="Europe/Madrid"/>
+  <gCal:timesCleaned value="0"/>
+  <entry>
+    <id>http://www.google.com/calendar/feeds/time.it%40bbvaglobalnet.com/private-db8f3b7a86264a8a34a80d65dcefc3aa/full/ifhgfnb1cvr3vk0tj3a1lg18nc</id>
+    <published>2012-12-02T16:48:02.000Z</published>
+    <updated>2012-12-02T16:48:02.000Z</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/g/2005#event"/>
+    <title type="text">MISUPEREVENTOtest</title>
+    <content type="text">event text</content>
+    <link rel="alternate" type="text/html" href="https://www.google.com/calendar/event?eid=aWZoZ2ZuYjFjdnIzdmswdGozYTFsZzE4bmMgdGltZS5pdEBiYnZhZ2xvYmFsbmV0LmNvbQ" title="alternate"/>
+    <link rel="self" type="application/atom+xml" href="https://www.google.com/calendar/feeds/time.it%40bbvaglobalnet.com/private-db8f3b7a86264a8a34a80d65dcefc3aa/full/ifhgfnb1cvr3vk0tj3a1lg18nc"/>
+    <author>
+      <name>time.it@bbvaglobalnet.com</name>
+      <email>time.it@bbvaglobalnet.com</email>
+    </author>
+    <gd:comments>
+      <gd:feedLink href="https://www.google.com/calendar/feeds/time.it%40bbvaglobalnet.com/private-db8f3b7a86264a8a34a80d65dcefc3aa/full/ifhgfnb1cvr3vk0tj3a1lg18nc/comments"/>
+    </gd:comments>
+    <gd:eventStatus value="http://schemas.google.com/g/2005#event.confirmed"/>
+    <gd:where valueString="Rolling Lawn Courts"/>
+    <gd:who email="time.it@bbvaglobalnet.com" rel="http://schemas.google.com/g/2005#event.organizer" valueString="time.it@bbvaglobalnet.com"/>
+    <gd:when endTime="2012-12-02T20:00:00.000+01:00" startTime="2012-12-02T18:00:00.000+01:00"/>
+    <gd:transparency value="http://schemas.google.com/g/2005#event.opaque"/>
+    <gCal:anyoneCanAddSelf value="false"/>
+    <gCal:guestsCanInviteOthers value="true"/>
+    <gCal:guestsCanModify value="false"/>
+    <gCal:guestsCanSeeGuests value="true"/>
+    <gCal:sequence value="0"/>
+    <gCal:uid value="ifhgfnb1cvr3vk0tj3a1lg18nc@google.com"/>
+  </entry>
+  <entry>
+    <id>http://www.google.com/calendar/feeds/time.it%40bbvaglobalnet.com/private-db8f3b7a86264a8a34a80d65dcefc3aa/full/qj9ugndrit4g52jbahij5q8edg</id>
+    <published>2012-12-02T16:45:59.000Z</published>
+    <updated>2012-12-02T16:45:59.000Z</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/g/2005#event"/>
+    <title type="text">Tennis with Beth</title>
+    <content type="text">Meet for a quick lesson.</content>
+    <link rel="alternate" type="text/html" href="https://www.google.com/calendar/event?eid=cWo5dWduZHJpdDRnNTJqYmFoaWo1cThlZGcgdGltZS5pdEBiYnZhZ2xvYmFsbmV0LmNvbQ" title="alternate"/>
+    <link rel="self" type="application/atom+xml" href="https://www.google.com/calendar/feeds/time.it%40bbvaglobalnet.com/private-db8f3b7a86264a8a34a80d65dcefc3aa/full/qj9ugndrit4g52jbahij5q8edg"/>
+    <author>
+      <name>time.it@bbvaglobalnet.com</name>
+      <email>time.it@bbvaglobalnet.com</email>
+    </author>
+    <gd:comments>
+      <gd:feedLink href="https://www.google.com/calendar/feeds/time.it%40bbvaglobalnet.com/private-db8f3b7a86264a8a34a80d65dcefc3aa/full/qj9ugndrit4g52jbahij5q8edg/comments"/>
+    </gd:comments>
+    <gd:eventStatus value="http://schemas.google.com/g/2005#event.confirmed"/>
+    <gd:where valueString="Rolling Lawn Courts"/>
+    <gd:who email="time.it@bbvaglobalnet.com" rel="http://schemas.google.com/g/2005#event.organizer" valueString="time.it@bbvaglobalnet.com"/>
+    <gd:when endTime="2012-12-02T16:30:00.000+01:00" startTime="2012-12-02T16:00:00.000+01:00"/>
+    <gd:transparency value="http://schemas.google.com/g/2005#event.opaque"/>
+    <gCal:anyoneCanAddSelf value="false"/>
+    <gCal:guestsCanInviteOthers value="true"/>
+    <gCal:guestsCanModify value="false"/>
+    <gCal:guestsCanSeeGuests value="true"/>
+    <gCal:sequence value="0"/>
+    <gCal:uid value="qj9ugndrit4g52jbahij5q8edg@google.com"/>
+  </entry>
+  <entry>
+    <id>http://www.google.com/calendar/feeds/time.it%40bbvaglobalnet.com/private-db8f3b7a86264a8a34a80d65dcefc3aa/full/aobsmhp13vgrt1v1e2q67sa3hs</id>
+    <published>2012-12-02T16:17:16.000Z</published>
+    <updated>2012-12-02T16:17:16.000Z</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/g/2005#event"/>
+    <title type="text">evento1</title>
+    <content type="text"/>
+    <link rel="alternate" type="text/html" href="https://www.google.com/calendar/event?eid=YW9ic21ocDEzdmdydDF2MWUycTY3c2EzaHMgdGltZS5pdEBiYnZhZ2xvYmFsbmV0LmNvbQ" title="alternate"/>
+    <link rel="self" type="application/atom+xml" href="https://www.google.com/calendar/feeds/time.it%40bbvaglobalnet.com/private-db8f3b7a86264a8a34a80d65dcefc3aa/full/aobsmhp13vgrt1v1e2q67sa3hs"/>
+    <author>
+      <name>time.it@bbvaglobalnet.com</name>
+      <email>time.it@bbvaglobalnet.com</email>
+    </author>
+    <gd:comments>
+      <gd:feedLink href="https://www.google.com/calendar/feeds/time.it%40bbvaglobalnet.com/private-db8f3b7a86264a8a34a80d65dcefc3aa/full/aobsmhp13vgrt1v1e2q67sa3hs/comments"/>
+    </gd:comments>
+    <gd:eventStatus value="http://schemas.google.com/g/2005#event.confirmed"/>
+    <gd:where valueString=""/>
+    <gd:who email="time.it@bbvaglobalnet.com" rel="http://schemas.google.com/g/2005#event.organizer" valueString="time.it@bbvaglobalnet.com"/>
+    <gd:when endTime="2012-12-02T17:00:00.000+01:00" startTime="2012-12-02T16:00:00.000+01:00">
+      <gd:reminder method="alert" minutes="10"/>
+    </gd:when>
+    <gd:transparency value="http://schemas.google.com/g/2005#event.opaque"/>
+    <gCal:anyoneCanAddSelf value="false"/>
+    <gCal:guestsCanInviteOthers value="true"/>
+    <gCal:guestsCanModify value="false"/>
+    <gCal:guestsCanSeeGuests value="true"/>
+    <gCal:sequence value="0"/>
+    <gCal:uid value="aobsmhp13vgrt1v1e2q67sa3hs@google.com"/>
+  </entry>
+  <entry>
+    <id>http://www.google.com/calendar/feeds/time.it%40bbvaglobalnet.com/private-db8f3b7a86264a8a34a80d65dcefc3aa/full/jedn1oojncnfthva985a4usb80</id>
+    <published>2012-12-02T16:17:10.000Z</published>
+    <updated>2012-12-02T16:17:10.000Z</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/g/2005#event"/>
+    <title type="text">evento0</title>
+    <content type="text"/>
+    <link rel="alternate" type="text/html" href="https://www.google.com/calendar/event?eid=amVkbjFvb2puY25mdGh2YTk4NWE0dXNiODAgdGltZS5pdEBiYnZhZ2xvYmFsbmV0LmNvbQ" title="alternate"/>
+    <link rel="self" type="application/atom+xml" href="https://www.google.com/calendar/feeds/time.it%40bbvaglobalnet.com/private-db8f3b7a86264a8a34a80d65dcefc3aa/full/jedn1oojncnfthva985a4usb80"/>
+    <author>
+      <name>time.it@bbvaglobalnet.com</name>
+      <email>time.it@bbvaglobalnet.com</email>
+    </author>
+    <gd:comments>
+      <gd:feedLink href="https://www.google.com/calendar/feeds/time.it%40bbvaglobalnet.com/private-db8f3b7a86264a8a34a80d65dcefc3aa/full/jedn1oojncnfthva985a4usb80/comments"/>
+    </gd:comments>
+    <gd:eventStatus value="http://schemas.google.com/g/2005#event.confirmed"/>
+    <gd:where valueString=""/>
+    <gd:who email="time.it@bbvaglobalnet.com" rel="http://schemas.google.com/g/2005#event.organizer" valueString="time.it@bbvaglobalnet.com"/>
+    <gd:when endTime="2012-12-02T15:30:00.000+01:00" startTime="2012-12-02T14:30:00.000+01:00">
+      <gd:reminder method="alert" minutes="10"/>
+    </gd:when>
+    <gd:transparency value="http://schemas.google.com/g/2005#event.opaque"/>
+    <gCal:anyoneCanAddSelf value="false"/>
+    <gCal:guestsCanInviteOthers value="true"/>
+    <gCal:guestsCanModify value="false"/>
+    <gCal:guestsCanSeeGuests value="true"/>
+    <gCal:sequence value="0"/>
+    <gCal:uid value="jedn1oojncnfthva985a4usb80@google.com"/>
+  </entry>
+</feed>

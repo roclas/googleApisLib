@@ -30,7 +30,6 @@ public class calendarTest {
 	
 	@Test
 	public void listingEventsTest() throws IOException {
-		/*
 		System.out.println("listing events");
 		String user="time.it@bbvaglobalnet.com";
 		String password=null;
@@ -47,8 +46,25 @@ public class calendarTest {
 			}
 			System.out.println("\n\n");
 		}
-		*/
+		System.out.println("is now busy ? :"+operator.isNowBusy());
 		assert(true);
+	}
+	
+	@Test
+	public void compareDatesTest(){
+		/*
+		String date0="2012-12-12T14:00:00.000+01:00";
+		String date1="2012-12-12T15:00:00.000+01:00";
+		CalendarOperator operator=new CalendarOperator(null,null,null);
+		String hora_actual=operator.stringCurrentDate("HH:mm:ss");
+		String dia_actual=operator.stringCurrentDate("yyyy-MM-dd");
+		//String dateNow=dia_actual+"T"+hora_actual+".000+01:00";
+		String dateNow="2012-12-12T14:35:00.000+01:00";
+		String dateTomorrow="2012-12-13T14:35:00.000+01:00";
+		assertTrue(operator.isDateBetween(dateNow,date0,date1));
+		assertFalse(operator.isDateBetween(dateTomorrow,date0,date1));
+		assert(true);
+		*/
 	}
 
 }

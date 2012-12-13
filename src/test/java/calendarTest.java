@@ -73,7 +73,7 @@ public class calendarTest {
 		/*
 		System.out.println("listing events");
 		String user="time.it@bbvaglobalnet.com";
-		String password=null;
+		String password="";
 		String priv="db8f3b7a86264a8a34a80d65dcefc3aa";
 		if(password==null || user==null){ assertTrue(false); }
 		CalendarOperator operator=new CalendarOperator(user,password,priv);
@@ -81,7 +81,7 @@ public class calendarTest {
 			System.out.println("seconds for next event="+operator.datesTimeDiff(operator.timenow(), operator.getNextEvent().get("startTime")));
 		else
 			System.out.println("no next event");
-		*/
+			*/
 	}
 	
 	@Test
@@ -89,7 +89,7 @@ public class calendarTest {
 		/*
 		System.out.println("listing events");
 		String user="time.it@bbvaglobalnet.com";
-		String password=null
+		String password="";
 		String priv="db8f3b7a86264a8a34a80d65dcefc3aa";
 		if(password==null || user==null){ assertTrue(false); }
 		CalendarOperator operator=new CalendarOperator(user,password,priv);

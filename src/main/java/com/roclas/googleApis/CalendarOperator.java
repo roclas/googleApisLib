@@ -207,16 +207,15 @@ public class CalendarOperator {
 		String[] date0s = date0.split("T");
 		String[] dateNows = dateNow.split("T");
 		
-		int day0 = Integer.parseInt(date0s[0].replace("-", ""));
-		int dayNow = Integer.parseInt(dateNows[0].replace("-", ""));
+		//int day0 = Integer.parseInt(date0s[0].replace("-", ""));
+		//int dayNow = Integer.parseInt(dateNows[0].replace("-", ""));
 		
-		int time0=Integer.parseInt(date0s[1].split("\\.")[0].replace(":",""));
-		int timeNow=Integer.parseInt(dateNows[1].split("\\.")[0].replace(":",""));
+		String []times0 = date0s[1].split("\\.")[0].split(":");
+		int time0=Integer.parseInt(times0[0])*3600+Integer.parseInt(times0[1])*60+Integer.parseInt(times0[2]);
+		String []timesNow = dateNows[1].split("\\.")[0].split(":");
+		int timeNow=Integer.parseInt(timesNow[0])*3600+Integer.parseInt(timesNow[1])*60+Integer.parseInt(timesNow[2]);
 		
-		int zero=day0*1000000+time0;
-		int now=dayNow*1000000+timeNow;
-		
-		return (zero-now);
+		return (time0-timeNow);
 	}
 	
 	public boolean isDateBefore(String dateNow, String date0) {

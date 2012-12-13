@@ -38,6 +38,10 @@ public class CalendarOperator {
 	    return s.hasNext() ? s.next() : "";
 	}
 	
+    public String timenow() {  
+		return stringCurrentDate("yyyy-MM-dd")+"T"+stringCurrentDate("HH:mm:ss");
+    }
+    
     public String stringCurrentDate(String format) {  
     	//stringCurrentDate("yyyy-MM-dd")
         Calendar calendar = Calendar.getInstance();
@@ -199,40 +203,69 @@ public class CalendarOperator {
     	}
     }
 
-	public boolean isDateBetween(String dateNow, String date0, String date1) {
+	public int datesTimeDiff(String dateNow, String date0) {
 		String[] date0s = date0.split("T");
-		String[] date1s = date1.split("T");
 		String[] dateNows = dateNow.split("T");
 		
 		int day0 = Integer.parseInt(date0s[0].replace("-", ""));
-		int day1 = Integer.parseInt(date1s[0].replace("-", ""));
 		int dayNow = Integer.parseInt(dateNows[0].replace("-", ""));
 		
 		int time0=Integer.parseInt(date0s[1].split("\\.")[0].replace(":",""));
-		int time1=Integer.parseInt(date1s[1].split("\\.")[0].replace(":",""));
 		int timeNow=Integer.parseInt(dateNows[1].split("\\.")[0].replace(":",""));
 		
 		int zero=day0*1000000+time0;
-		int one=day1*1000000+time1;
 		int now=dayNow*1000000+timeNow;
 		
-		if(zero<now)if(now<one)return true;
+		return (zero-now);
+	}
+	
+	public boolean isDateBefore(String dateNow, String date0) {
+		if(datesTimeDiff(dateNow, date0)>0 )return true;
 		return false;
 	}
 	
-	public boolean isNowBusy(String date0, String date1) {
-		String hora_actual=stringCurrentDate("HH:mm:ss");
-		String dia_actual=stringCurrentDate("yyyy-MM-dd");
-		String dateNow=dia_actual+"T"+hora_actual+".000+01:00";
-		return(isDateBetween(dateNow, date0, date1));
+	public boolean isDateBetween(String dateNow, String date0, String date1) {
+		return (isDateBefore(date0,dateNow) && isDateBefore(dateNow,date1));
+	}
+	
+	
+	public boolean isNowBetween(String date0, String date1) {
+		return(isDateBetween(timenow(), date0, date1));
+	}
+	
+	public Map<String, String> getCurrentEvent() throws IOException {
+		for (Map<String, String> ev:listEvents().values()){
+			if(isNowBetween(ev.get("startTime"),ev.get("endTime")))return ev;
+		}
+		return null;
 	}
 	
 	public boolean isNowBusy() throws IOException {
 		for (Map<String, String> ev:listEvents().values()){
-			if(isNowBusy(ev.get("startTime"),ev.get("endTime")))return true;
+			if(isNowBetween(ev.get("startTime"),ev.get("endTime")))return true;
 		}
 		return false;
 	}
+	
+	
+	public Map<String, String> getNextEvent() throws IOException {
+		int hoursaday=24;
+		int minutesxh=60;
+		int secondsxm=60;
+		int maxseconds=hoursaday*minutesxh*secondsxm;
+		Map<String, String> event = null;
+		for (Map<String, String> ev:listEvents().values()){
+			if(isDateBefore(timenow(),ev.get("startTime"))){
+				int newmax=datesTimeDiff(timenow(), ev.get("startTime"));
+				if(newmax<maxseconds){
+					event=ev;
+					maxseconds=newmax;
+				}
+			}
+		}
+		return event;
+	}
+
 
 }
 
